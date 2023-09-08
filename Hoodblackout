@@ -180,7 +180,7 @@ local c = ws.CurrentCamera
 -- // Notification Function
 local function SendNotification(text)
     Notification:Notify(
-        {Title = "DNS Rewrite", Description = "pl#0001 - "..text},
+        {Title = "Blackout.cc", Description = "By:kya - "..text},
         {OutlineColor = Color3.fromRGB(50,76,110),Time = 2, Type = "image"},
         {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(50,76,110)}
     )
@@ -188,9 +188,9 @@ end
 
 -- // Call notification function
 if uwuMain.Notifications then
-    SendNotification("pl#0001 - injecting DNS Rewrite")
+    SendNotification("pl#0001 - injecting Blackout.cc")
     wait(3.5)
-    SendNotification("pl#0001 - finished injecting DNS Rewrite")
+    SendNotification("pl#0001 - finished injecting Blackout.cc")
 end
 
 -- // Camlock FOV
